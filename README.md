@@ -48,3 +48,26 @@ Learning Typescript by making a Blockchain with it
   ts파일은 src로 들어가고  
   컴파일 된 파일들은 dist로 들어간다.  
   ![cap1](./image/cap1.PNG)
+
+- $ tsc-watch -onSuccess " node dist/index.js"  
+  Cannot find module 'typescript/bin/tsc'  
+  error Command failed with exit code 9. 와 같은 에러 나시는 분들은  
+  npm i -D @types/node typescript ts-node 로 해결하시면 됩니다
+
+- function의 object를 전달하기 위해 interface를 만든다.  
+  interface는 문제가 일어나는 걸 막기 위해  
+  js로 컴파일 되지 않는다.
+
+- interface를 컴파일 하고 싶다면 class를 이용한다.  
+  class는 코드를 컨트롤 할 수 있다.  
+  js에서는 클래스의 속성을 묘사할 필요가 없다.  
+  ts에서는 클래스가 어떤 속성들을 가져야 하는지,
+  그런 속성들이 가지고 있는 권한(public, private)도 선언한다.
+
+- constructor  
+  생성자 메서드이고 클래스가 호출될 때마다 실행된다.  
+  클래스로부터 객채(object)를 만들때마다
+
+- interface를 사용하면 ts측면에서 더 안전하다.  
+  react, expresss, node 같은 걸 쓰게 되면  
+  코드에서 class를 사용할 것이다.
