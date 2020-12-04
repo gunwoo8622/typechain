@@ -47,4 +47,4 @@ Learning Typescript by making a Blockchain with it
 - tsconfig.json 수정  
   ts파일은 src로 들어가고  
   컴파일 된 파일들은 dist로 들어간다.  
-  ![cap1](./image/cap1.PNG)
+  ![cap1](./image/cap1.PNG){: width="300" height="250"}
