@@ -71,3 +71,9 @@ Learning Typescript by making a Blockchain with it
 - interface를 사용하면 ts측면에서 더 안전하다.  
   react, expresss, node 같은 걸 쓰게 되면  
   코드에서 class를 사용할 것이다.
+
+- crypto-js 설치  
+  npm add crypto-js
+
+- class안에 static메소드를 만들면  
+  해당 class에서 메소드를 사용할 수 있다(?)

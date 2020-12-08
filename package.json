@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/gunwoo8622/typechain#readme",
   "dependencies": {
+    "crypto-js": "^4.0.0",
     "tsc-watch": "^4.2.9"
   },
   "devDependencies": {
